@@ -1,6 +1,6 @@
 import s from "./header.module.scss";    
 import { Disclosure, DisclosureButton, DisclosurePanel, Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/react'
-import { Bars3Icon, BellIcon, XMarkIcon, PlusCircleIcon } from '@heroicons/react/24/outline'
+import { Bars3Icon, XMarkIcon, PlusCircleIcon } from '@heroicons/react/24/outline'
 import { Link } from "react-router-dom";
 
 const user = {
@@ -20,7 +20,10 @@ function classNames(...classes: (string | undefined | null | boolean)[]): string
   return classes.filter(Boolean).join(' ')
 }
 
+
+
 export default function Header() {
+
   return (
     <>
       {/*
